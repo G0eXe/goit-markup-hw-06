@@ -984,8 +984,10 @@ img {
   padding-left: 16px;
 }
 
+.footer-email-input:hover,
 .footer-email-input:focus {
   border-color: var(--accent-color);
+  outline: none;
 }
 
 ::placeholder {
