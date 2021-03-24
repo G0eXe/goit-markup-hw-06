@@ -516,6 +516,52 @@
             <use href="./img/icons/sprite.svg#icon-close-black"></use>
           </svg>
         </button>
+
+        <form action="#" class="modal-form">
+          <label class="modal-form-field"
+            >Имя
+            <input
+              type="text"
+              name="user-name"
+              class="modal-form-input"
+              required
+              minlength="3"
+            />
+          </label>
+
+          <label class="modal-form-field"
+            >Телефон
+            <input
+              type="tel"
+              name="user-phone"
+              class="modal-form-input"
+              required
+              pattern=""
+            />
+          </label>
+
+          <label class="modal-form-field"
+            >Почта
+            <input type="email" name="user-email" class="modal-form-input" />
+          </label>
+
+          <label class="modal-form-field"
+            >Имя
+            <textarea
+              name="user-message"
+              class="modal-form-message"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+
+          <input type="checkbox" name="user-term" class="modal-form-term" />
+          <label for="" class="modal-form-check-desc"
+            >Соглашаюсь с рассылкой и принимаю
+            <a href="#">Условия договора</a></label
+          >
+
+          <button type="submit" class="modal-form-btn">Отправить</button>
+        </form>
       </div>
     </div>
 
