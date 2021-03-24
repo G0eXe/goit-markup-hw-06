@@ -1109,3 +1109,28 @@ img {
 
   color: rgba(117, 117, 117, 0.5);
 }
+
+.modal-form-btn {
+  min-width: 200px;
+  padding: 10px 32px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  align-self: center;
+}
+
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background: #188ce8;
+}
+
+/* .modal-button-text {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88; */
