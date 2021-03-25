@@ -1080,8 +1080,30 @@ img {
   padding: 40px 40px;
 }
 
+.modal-form-title {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--main-title-color);
+
+  margin-bottom: 12px;
+}
+
 .modal-form-field {
   margin-bottom: 10px;
+
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.16;
+
+  letter-spacing: 0.01em;
+
+  color: var(--content-color);
 }
 
 .modal-form-input-wrapper {
