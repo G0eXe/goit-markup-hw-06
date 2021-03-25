@@ -1197,6 +1197,7 @@ img {
   color: var(--content-color);
 
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .user-term-link {
