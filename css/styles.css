@@ -1194,7 +1194,9 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--content-color);
+
+  margin: 0 auto;
 }
 
 .user-term-link {
@@ -1206,7 +1208,8 @@ img {
   content: "";
   width: 16px;
   height: 16px;
-  border: 1px solid #212121;
+  border: 2px solid var(--main-title-color);
+  border-radius: 2px;
   cursor: pointer;
 
   margin-right: 7px;
@@ -1218,6 +1221,10 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   border: none;
+}
+
+.modal-form-term:focus + .modal-form-check-desc::before {
+  box-shadow: 0 0 0 2px var(--accent-color);
 }
 
 .modal-form-btn {
