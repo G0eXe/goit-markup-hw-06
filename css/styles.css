@@ -1220,6 +1220,7 @@ img {
   background-image: url("../img/icons/check.svg");
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 2px;
   border: none;
 }
 
